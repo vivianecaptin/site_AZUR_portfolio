@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Sacramento&display=swap%27');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/**************** Nav bar *******************/
+
+
+.logo {
+    max-width: 150px;
+}
+
+.nav-item {
+    margin: 20px;
+}
+
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: #EADECE;
+    border: 0.5px solid transparent;
+    border-radius: 0.25rem;
+}
+
+
+/* menu - la carte 
+_____________________________*/
+
+main span {
+    font-family: 'Sacramento', cursive;
+    font-size: 50px;
+    color: #E2C453;
+
+}
+
+main .title {
+    font-family: montserrat, sans-serif;
+    color: #0E018A;
+    padding-left:150px;
+    padding-right:100px;
+
+}
+
+main .name {
+    color: #0E018A;
+}
+
+
+.bgMenu {
+    background-color: #F6F2EA;
+}
+
+main ul {
+    list-style-type: none;
+}
+
+main .list {
+    padding-left:150px;
+    padding-right:100px;
+}
+
+main .deco {
+    font-family: montserrat;
+    color: #0E018A;
+}
+
+@media screen and (max-width: 768px){
+    main .list {
+        padding-left:0;
+        padding-right:0;
+    }
+    main .title {
+        padding-left:0;
+        padding-right:0;
+
+    }
+}
+
+
+/* --------------------FOOTER------------------ */
+
+footer {
+    color:#fff;
+    background-color: #0E018A;
+    font-family: 'Montserrat light';
+    font-size: 12px;
+}
+
+.buttonFooter{
+    background-color: #fff ;
+    color:  #0E018A;
+    font-family: 'Montserrat';
+    margin-left: 40px;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    font-size: 2em;
+}
+
+.logoFooter img{
+    max-width:150px;
+}
+
+footer .partLeft{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+footer .partRight{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    footer .partLeft{
+        justify-content: space-between;
+    }
+    footer .partRight{
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .adressFooter {
+        border-right: 1px solid;
+        border-color: #fff;
+    }
+}
